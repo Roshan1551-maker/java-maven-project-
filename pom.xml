@@ -13,7 +13,7 @@
     <!--  Add properties for environment variables  -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>17</maven.compiler.release> <!-- You can keep this or remove it if not needed -->
+        <!-- <maven.compiler.release>17</maven.compiler.release> --> <!-- You can keep this or remove it if not needed -->
         <!--  Default values for environment variables  -->
         <build.number>${env.BUILD_NUMBER}</build.number>
         <job.name>${env.JOB_NAME}</job.name>
